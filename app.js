@@ -71,7 +71,7 @@ Async.forEach(metro,function(lineCode, cb){
                      allTrains.blueLine.push(to_add);
                      break;
                  default:
-                     //Log("Should not have gotten here!!");
+                     Log("Was the Grey Line actually added? I seriously doubt it!");
               }
 
 
