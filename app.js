@@ -35,8 +35,7 @@ Async.forEach(metro,function(lineCode, cb){
     });
 
 }, function(error){
-    //Log(stations);
-   // Log(stationCodes);
+
     var toSearch = stations[toFind];
     //Log(toSearch);
     Request('http://api.wmata.com/StationPrediction.svc/json/GetPrediction/'+toSearch+'?api_key=' + api_key, function(error, response, body){
